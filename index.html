@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
+    <!-- <link rel="preconnect" href="http://fonts.googleapis.com" />
+    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin /> -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="top-icons">
+            
+                <img class=" spotify-logo" src="./assets/Spotify logo.svg" alt="spotify logo" width="50%" height="50%" />
+
+
+          <div class="link-flex">
+            <img src="./assets/home.png" alt="Home" />
+            <a href="#">Home</a>
+          </div>
+          <div class="link-flex">
+            <img src="./assets/search.png" alt="search" />
+            <a href="#">Search</a>
+          </div>
+          <div class="link-flex">
+            <img src="./assets/queue.png" alt="library" />
+            <a href="#">Library</a>
+          </div>
+        </div>
+         <div class="library">
+          <!-- <div class="library-top">
+            <div class="flex-top">
+              <div class="link-flex">
+                <img src="./assets/playlist.png" alt="library" />
+                <p>Your Library</p>
+              </div>
+              <div class="link-flex">
+                <img src="./assets/plus.png" alt="library" />
+                <img src="./assets/boxes.png" alt="library" />
+              </div>
+            </div>
+            <div class="chips" style="gap: 0.5rem">
+              <div class="chip link-flex">playlists</div>
+              <div class="chip link-flex">artists</div>
+              <div class="chip link-flex">podcasts&shows</div>
+            </div>
+            <div class="flex-top link-flex">
+              <img src="./assets/search.png" alt="library" />
+              <p>Recents</p>
+            </div>
+          </div> -->
+
+
+
+
+
+           <div class="library-bottom">
+            <!-- <div class="abc  abd">
+                <div class="album-div album-div-4">
+                   <div class="album-div-4-img" ><img
+                      class="album-cover" 
+                      src="./assets/fi-ss-plus-small.png"
+                      alt="album cover"
+                    /></div>
+                     <div class="album-div-4-p"><p class="album-name">CreatePlaylist</p></div>  
+                  </div>
+                  <div class="album-div album-div-4">
+                   <div><img
+                      class="album-cover"
+                      src="./assets/fi-ss-heart.png"
+                      alt="album cover"
+                    /></div>
+                      <p class="album-name">LikedSongs</p>
+                  </div>
+                  <div class="album-div album-div-4">
+                    <div><img
+                      class="album-cover"
+                      src="./assets/fi-ss-caret-down.png"
+                      alt="album cover"
+                    /></div>
+                      <p class="album-name">YourEpisodes</p>
+                  </div>
+             </div> -->
+
+
+
+
+             <div class="bcd">
+                  <div class="ps">
+                    <img
+                    class="album-cover" 
+                    src="./Icons/plus.png"
+                    alt="album cover"
+                  />
+                  <div><p class="album-name">CreatePlaylist</p></div>
+                  </div>
+                  <div class="ps">
+                    <img
+                    class="album-cover" 
+                    src="./assets/Group 2.png"
+                    alt="album cover"
+                  />
+                  <div><p class="album-name">LikedSongs</p></div>
+                  </div>
+                  <div class="ps">
+                    <img
+                    class="album-cover" 
+                    src="./assets/Rectangle 10bg.png"
+                    alt="album cover"
+                  />
+                  <div><p class="album-name">YourEpisodes</p></div>
+                  </div>
+             </div> 
+
+
+
+             <div class="description">
+                <div>Fav</div>
+                <div>DailyMix1</div>
+                <div>DiscoverWeekly</div>
+                <div>Malayalam</div>
+                <div>Dance/ElectronicMix</div>
+                <div>EDM/Popular</div>
+             </div>
+             <div class="installApp">
+                <div>
+                    <img src="./assets/grommet-icons_install-option.png">
+                </div>
+                <div>InstallApp</div>
+             </div>
+          </div> 
+
+
+
+
+        </div> 
+      </div>
+
+
+      <!-- main content -->
+      <div class="main-content">
+         <div class="navbar">
+          <div class="link-flex">
+            <img src="./assets/back_navigation.png" />
+            <img src="./assets/forward_navigation.png" />
+          </div>
+           <!-- navbar-content  -->
+           <div class="nav-right" style="gap: 0.8rem">
+            <!-- <div class="upgrade">Upgrade</div>
+            <div class="install">Install App</div> -->
+            <div class="logo profile">
+                <img src="./assets/Ellipse 3.png" />
+                <p>Suhail</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="21" height="24" viewBox="0 0 21 24" fill="none">
+                    <path d="M4.37524 9H16.6252L11.1189 15.293C10.9548 15.4805 10.7323 15.5858 10.5002 15.5858C10.2682 15.5858 10.0457 15.4805 9.88162 15.293L4.37524 9Z" fill="white"/>
+                </svg>
+            </div>
+          </div>
+        </div> 
+        <div>
+            <h3>Good morning</h3>
+            <div class="abc">
+            <div class="album-div">
+                <img
+                  class="album-cover"
+                  src="./assets/mix1.jpeg"
+                  alt="album cover"
+                />
+                  <p class="album-name">LikedSong</p>   
+              </div>
+              <div class="album-div">
+                <img
+                  class="album-cover"
+                  src="./assets/mix1.jpeg"
+                  alt="album cover"
+                />
+                  <p class="album-name">NeffexPlaylist</p>
+              </div>
+              <div class="album-div">
+                <img
+                  class="album-cover"
+                  src="./assets/mix1.jpeg"
+                  alt="album cover"
+                />
+                  <p class="album-name">K/DA</p>
+              </div>
+              <div class="album-div album-div-3">
+                <img
+                  class="album-cover"
+                  src="./assets/mix1.jpeg"
+                  alt="album cover"
+                />
+                  <p class="album-name">Dance/ElectronicMix</p>
+             </div>
+            </div>
+        <div class="see-all">
+          <h3 class="recently">Shows you might like</h3>
+          <a href="./playlist.html">SEE All</a>
+        </div>
+          <div class="card-container">
+            <div class="card">
+              <img class="card-image" src="./assets/Rectangle 16.png" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/mix1.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/mix2.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+          </div>
+          <h3 class="recently">Made for You</h3>
+          <div class="card-container">
+            <div class="card">
+              <img class="card-image" src="./assets/mix3.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/mix2.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/mix1.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/Rectangle 16.png" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/Rectangle 16 (1).png" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/Rectangle 16 (2).png" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/mix1.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/mix3.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/mix2.jpeg" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+            <div class="card">
+              <img class="card-image" src="./assets/Rectangle 16.png" />
+              <p class="card-name">Workout</p>
+              <p class="card-description">pop hits to keep you fresh!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- player-footer -->
+      <!-- <div class="player">
+        <div class="volume-controls vol-control-left">
+           <div vol-col-left-img >
+            <img
+              class="album-cover"
+              src="./assets/mix2.jpeg"
+              alt="album cover"
+            />
+           </div>
+            <div class="col-flex">
+              <p class="album-name">Workout</p>
+              <p>playlist • spotify</p>
+            </div>
+          <img class="heart" src="./assets/bx_bxs-heart.png"/>
+
+          </div>
+         <div class="player-center">
+            <div class="player-controls">
+               <img src="./assets/shuffle.png">
+               <img src="./assets/previous_musicbar.png">
+               <img src="./assets/play_musicbar.png">
+               <img src="./assets/next_musicbar.png">
+               <img src="./assets/loop.png">
+            </div>
+            <div class="player-timeline">
+                  <span class="current-time">0:00</span>
+                  <input class="timeline-slider" type="range" min="0" max="100"step="1" value="0"> 
+                  <span class="total-time">0:00</span>
+            </div>
+         </div>
+         <div class="volume-controls vol-control-right">
+                <img src="./assets/ph_microphone-stage.png">
+                <img src="./assets/carbon_query-queue.png" >
+                <img src="./assets/carbon_laptop.png" >
+                <img src="./assets/Group (2).png" >
+                <input class="volume-slider" type="range" step="1" value="50">
+                <img src="./assets/Group (2).png" style="padding-left:0.5rem" >
+         </div>
+
+      </div> -->
+    </div>
+    <div class="player">
+        <div class="volume-controls vol-control-left">
+           <div vol-col-left-img >
+            <img
+              class="album-cover"
+              src="./assets/mix2.jpeg"
+              alt="album cover"
+            />
+           </div>
+            <div class="col-flex">
+              <p class="album-name">Workout</p>
+              <p>playlist • spotify</p>
+            </div>
+          <img class="heart" src="./assets/bx_bxs-heart.png"/>
+
+          </div>
+         <div class="player-center">
+            <div class="player-controls">
+               <img src="./assets/shuffle.png">
+               <img src="./assets/previous_musicbar.png">
+               <img src="./assets/play_musicbar.png">
+               <img src="./assets/next_musicbar.png">
+               <img src="./assets/loop.png">
+            </div>
+            <div class="player-timeline">
+                  <span class="current-time">0:00</span>
+                  <input class="timeline-slider" type="range" min="0" max="100"step="1" value="0"> 
+                  <span class="total-time">0:00</span>
+            </div>
+         </div>
+         <div class="volume-controls vol-control-right">
+                <img src="./assets/ph_microphone-stage.png">
+                <img src="./assets/carbon_query-queue.png" >
+                <img src="./assets/carbon_laptop.png" >
+                <img src="./assets/Group (2).png" >
+                <input class="volume-slider" type="range" step="1" value="50">
+                <img src="./assets/Group (2).png" style="padding-left:0.5rem" >
+         </div>
+
+      </div>
+    <!-- <div class="player"></div>   -->
+  </body>
+</html>
