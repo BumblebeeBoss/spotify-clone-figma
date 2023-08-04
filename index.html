@@ -6,12 +6,6 @@
     <title>Spotify - Web Player: Music for everyone</title>
     <link rel="stylesheet" href="./style.css" />
     <link rel="icon" type="image/x-icon" href="./assets/logo.png" />
-    <!-- <link rel="preconnect" href="http://fonts.googleapis.com" />
-    <link rel="preconnect" href="http://fonts.gstatic.com" crossorigin /> -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter&family=Nunito:wght@300;400;700&family=Roboto&display=swap" rel="stylesheet">  -->
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,83 +15,25 @@
   </head>
   <body>
     <div class="container">
+      <!-- sidebar -->
       <div class="sidebar">
-        <div class="top-icons">
-            
+        <div class="top-icons">       
                 <img class=" spotify-logo" src="./assets/Spotify logo.svg" alt="spotify logo" width="50%" height="50%" />
-
-
           <div class="link-flex">
             <img src="./assets/home.png" alt="Home" />
-            <a href="#">Home</a>
+            <a href="./playlist.html">Home</a>
           </div>
           <div class="link-flex">
             <img src="./assets/search.png" alt="search" />
-            <a href="#">Search</a>
+            <a href="./playlist.html">Search</a>
           </div>
           <div class="link-flex">
             <img src="./assets/queue.png" alt="library" />
-            <a href="#">Library</a>
+            <a href="./playlist.html">Library</a>
           </div>
         </div>
          <div class="library">
-          <!-- <div class="library-top">
-            <div class="flex-top">
-              <div class="link-flex">
-                <img src="./assets/playlist.png" alt="library" />
-                <p>Your Library</p>
-              </div>
-              <div class="link-flex">
-                <img src="./assets/plus.png" alt="library" />
-                <img src="./assets/boxes.png" alt="library" />
-              </div>
-            </div>
-            <div class="chips" style="gap: 0.5rem">
-              <div class="chip link-flex">playlists</div>
-              <div class="chip link-flex">artists</div>
-              <div class="chip link-flex">podcasts&shows</div>
-            </div>
-            <div class="flex-top link-flex">
-              <img src="./assets/search.png" alt="library" />
-              <p>Recents</p>
-            </div>
-          </div> -->
-
-
-
-
-
            <div class="library-bottom">
-            <!-- <div class="abc  abd">
-                <div class="album-div album-div-4">
-                   <div class="album-div-4-img" ><img
-                      class="album-cover" 
-                      src="./assets/fi-ss-plus-small.png"
-                      alt="album cover"
-                    /></div>
-                     <div class="album-div-4-p"><p class="album-name">CreatePlaylist</p></div>  
-                  </div>
-                  <div class="album-div album-div-4">
-                   <div><img
-                      class="album-cover"
-                      src="./assets/fi-ss-heart.png"
-                      alt="album cover"
-                    /></div>
-                      <p class="album-name">LikedSongs</p>
-                  </div>
-                  <div class="album-div album-div-4">
-                    <div><img
-                      class="album-cover"
-                      src="./assets/fi-ss-caret-down.png"
-                      alt="album cover"
-                    /></div>
-                      <p class="album-name">YourEpisodes</p>
-                  </div>
-             </div> -->
-
-
-
-
              <div class="bcd">
                   <div class="ps">
                     <img
@@ -124,9 +60,6 @@
                   <div><p class="album-name">YourEpisodes</p></div>
                   </div>
              </div> 
-
-
-
              <div class="description">
                 <div>Fav</div>
                 <div>DailyMix1</div>
@@ -142,14 +75,8 @@
                 <div>InstallApp</div>
              </div>
           </div> 
-
-
-
-
         </div> 
       </div>
-
-
       <!-- main content -->
       <div class="main-content">
          <div class="navbar">
@@ -283,47 +210,6 @@
         </div>
       </div>
       <!-- player-footer -->
-      <!-- <div class="player">
-        <div class="volume-controls vol-control-left">
-           <div vol-col-left-img >
-            <img
-              class="album-cover"
-              src="./assets/mix2.jpeg"
-              alt="album cover"
-            />
-           </div>
-            <div class="col-flex">
-              <p class="album-name">Workout</p>
-              <p>playlist • spotify</p>
-            </div>
-          <img class="heart" src="./assets/bx_bxs-heart.png"/>
-
-          </div>
-         <div class="player-center">
-            <div class="player-controls">
-               <img src="./assets/shuffle.png">
-               <img src="./assets/previous_musicbar.png">
-               <img src="./assets/play_musicbar.png">
-               <img src="./assets/next_musicbar.png">
-               <img src="./assets/loop.png">
-            </div>
-            <div class="player-timeline">
-                  <span class="current-time">0:00</span>
-                  <input class="timeline-slider" type="range" min="0" max="100"step="1" value="0"> 
-                  <span class="total-time">0:00</span>
-            </div>
-         </div>
-         <div class="volume-controls vol-control-right">
-                <img src="./assets/ph_microphone-stage.png">
-                <img src="./assets/carbon_query-queue.png" >
-                <img src="./assets/carbon_laptop.png" >
-                <img src="./assets/Group (2).png" >
-                <input class="volume-slider" type="range" step="1" value="50">
-                <img src="./assets/Group (2).png" style="padding-left:0.5rem" >
-         </div>
-
-      </div> -->
-    </div>
     <div class="player">
         <div class="volume-controls vol-control-left">
            <div vol-col-left-img >
@@ -364,6 +250,5 @@
          </div>
 
       </div>
-    <!-- <div class="player"></div>   -->
   </body>
 </html>
